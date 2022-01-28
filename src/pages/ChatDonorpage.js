@@ -35,6 +35,7 @@ export default function ChatDonorpage() {
    */
   useEffect(() => {
     socket = io(process.env.REACT_APP_SERVERURL, {
+      transports: ["websocket"],
       auth: {
         token: localStorage.getItem("accessToken"),
       },
