@@ -5,7 +5,6 @@ import { API } from "../config/api"
 import { useQuery } from "react-query"
 
 import { Dropdown } from "react-bootstrap"
-import Avatar from "../assets/avatar.png"
 import NoImage from "../assets/noImage-1.svg"
 import IconProfile from "../assets/icon-profile.png"
 import IconRaiseFund from "../assets/icon-raisefund.png"

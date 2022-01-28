@@ -21,7 +21,6 @@ import DonateOnly from "./Button/DonateOnly"
 import DonateChat from "./Button/DonateChat"
 import DonateEdit from "./Button/DonateEdit"
 import DonateDisabled from "./Button/DonateDisabled"
-import Donate1 from "../assets/donate-1.png"
 import convertRupiah from "rupiah-format"
 
 function DonateInfoComponet({ fund, refetch, total }) {

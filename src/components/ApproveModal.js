@@ -1,5 +1,4 @@
 import { Modal, Form, Button, Row, Col } from "react-bootstrap"
-import Struk from "../assets/struk.png"
 import { convert } from "rupiah-format"
 
 import { useMutation } from "react-query"
