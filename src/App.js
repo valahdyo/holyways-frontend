@@ -5,13 +5,7 @@ import { AuthContext } from "./context/AuthContext"
 import { API, setAuthToken } from "./config/api"
 
 import "bootstrap/dist/css/bootstrap.min.css"
-import "./styles/NavbarStyle.css"
-import "./styles/HomepageStyle.css"
-import "./styles/ProfilepageStyle.css"
-import "./styles/DonateInfoStyle.css"
-import "./styles/FormfundpageStyle.css"
-import "./styles/ChatStyle.css"
-import "./styles/style.css"
+import "./styles/index.css"
 
 /**
  * Set token ke request header when token in local storage exist
