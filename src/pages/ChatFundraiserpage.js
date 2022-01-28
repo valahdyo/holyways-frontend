@@ -33,6 +33,7 @@ export default function ChatFundraiserpage() {
    */
   useEffect(() => {
     socket = io(process.env.REACT_APP_SERVER_URL, {
+      transports: ["websocket"],
       auth: {
         token: localStorage.getItem("accessToken"),
       },
