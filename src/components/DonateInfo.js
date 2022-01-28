@@ -99,7 +99,7 @@ function DonateInfoComponet({ fund, refetch, total }) {
               <div className="donate-info-collected">
                 <div className="donate-total d-flex justify-content-between">
                   <p>{convertRupiah.convert(total.money)} </p>
-                  <span className="pt-1 fs-6 text-muted">gathered from</span>
+                  <span className="fs-6 text-muted">gathered from</span>
                   <span className="donate-total text-muted">
                     {convertRupiah.convert(fund?.goal)}
                   </span>
