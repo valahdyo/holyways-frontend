@@ -34,7 +34,7 @@ export default function ChatDonorpage() {
    * Load messages
    */
   useEffect(() => {
-    socket = io(process.env.REACT_APP_SERVER_URL, {
+    socket = io(process.env.REACT_APP_SERVERURL, {
       auth: {
         token: localStorage.getItem("accessToken"),
       },
