@@ -4,7 +4,7 @@
 }
 
 .profile-heading {
-  font-family: "Product Sans", "sans-serif";
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 36px;
   margin-bottom: 5%;
@@ -15,14 +15,14 @@
 }
 
 .profile-detail-heading {
-  font-family: "Product Sans", "sans-serif";
+  font-family: "Montserrat", sans-serif;
   color: #c32424;
   font-size: 18px;
   font-weight: 700;
 }
 
 .profile-detail-content {
-  font-family: "Product Sans", "sans-serif";
+  font-family: "Montserrat", sans-serif;
   color: #616161;
   font-size: 18px;
   font-weight: 400;
@@ -34,7 +34,7 @@
 }
 
 .donation-heading {
-  font-family: "Product Sans", "sans-serif";
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 14px;
 }
