@@ -1,13 +1,9 @@
-@import url("http://fonts.cdnfonts.com/css/avenir-lt-std");
-@import url("http://fonts.cdnfonts.com/css/product-sans");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap");
-
 html {
   background-color: #e5e5e5;
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Avenir LT Std", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   background-color: #e5e5e5;
 }
 
