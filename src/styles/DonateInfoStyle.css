@@ -25,7 +25,7 @@
 }
 
 .donate-info-detail {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Product Sans", "sans-serif";
   font-size: 18px;
   font-weight: 700;
 }
@@ -36,9 +36,9 @@
 }
 
 .donate-total {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Product Sans", "sans-serif";
   color: #c32424;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
 }
 
