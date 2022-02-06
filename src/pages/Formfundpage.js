@@ -96,7 +96,7 @@ function Formfundpage() {
           "Content-type": "multipart/form-data",
         },
       }
-      console.log(form)
+
       const response = await API.post("/fund", formData, config)
       history.push("/raisefund")
     } catch (error) {

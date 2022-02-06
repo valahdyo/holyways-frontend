@@ -94,7 +94,7 @@ function ProfileUpdatepage() {
           "Content-type": "multipart/form-data",
         },
       }
-      console.log(form)
+
       const response = await API.patch("/user", formData, config)
       history.push("/profile")
     } catch (error) {

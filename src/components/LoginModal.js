@@ -51,7 +51,7 @@ function LoginModalComponent(props) {
       // Checking process
       if (response?.status === 200) {
         // Send data to useContext
-        console.log(response)
+
         dispatch({
           type: "LOGIN_SUCCESS",
           payload: response.data.data.user,
@@ -74,6 +74,11 @@ function LoginModalComponent(props) {
       setMessage(alert)
       console.log(error)
     }
+  }
+
+  const handleDemoUser = (e) => {
+    setForm({ ...form, email: "najwa@mail.com", password: "123456" })
+    handleSubmit(e)
   }
 
   /**
@@ -140,6 +145,13 @@ function LoginModalComponent(props) {
                     </a>
                   </strong>
                 </p>
+                <Button
+                  onClick={handleDemoUser}
+                  className="donate-btn mb-3"
+                  style={{ width: "100%" }}
+                >
+                  Demo User
+                </Button>
               </Form>
             </Col>
           </Row>

@@ -16,7 +16,6 @@ function ApproveModalComponent(props) {
       e.preventDefault()
 
       const body = { status: "success" }
-      console.log(body)
 
       const config = {
         headers: {
@@ -29,7 +28,7 @@ function ApproveModalComponent(props) {
         body,
         config
       )
-      console.log(response)
+
       refetch()
       handleCloseDonate()
     } catch (error) {

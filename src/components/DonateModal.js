@@ -82,7 +82,7 @@ function DonateModalComponent(props) {
           "Content-type": "multipart/form-data",
         },
       }
-      console.log(form)
+
       const response = await API.post(
         "/transaction/" + fund.id,
         formData,
