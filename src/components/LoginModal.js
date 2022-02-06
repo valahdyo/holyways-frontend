@@ -147,7 +147,7 @@ function LoginModalComponent(props) {
                 </p>
                 <Button
                   onClick={handleDemoUser}
-                  className="donate-btn mb-3"
+                  className="donate-btn mb-4"
                   style={{ width: "100%" }}
                 >
                   Demo User
