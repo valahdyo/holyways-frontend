@@ -77,7 +77,7 @@ function LoginModalComponent(props) {
   }
 
   const handleDemoUser = (e) => {
-    setForm({ ...form, email: "najwa@mail.com", password: "123456" })
+    setForm({ ...form, email: "user1@gmail.com", password: "123456" })
     handleSubmit(e)
   }
 
